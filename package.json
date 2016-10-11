@@ -1,6 +1,6 @@
 {
   "name": "vuejs-localization",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Convenient way to retrive strings in various languages in Vuejs.",
   "main": "index.js",
   "scripts": {
