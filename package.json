@@ -1,0 +1,27 @@
+{
+  "name": "vuejs-localization",
+  "version": "1.0.0",
+  "description": "Convenient way to retrive strings in various languages in Vuejs.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/valterlorran/vue-localization.git"
+  },
+  "keywords": [
+    "Vue",
+    "Vuejs",
+    "Vue",
+    "Lang",
+    "Vue",
+    "Localization"
+  ],
+  "author": "Valter Lorran (http://valterlorran.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/valterlorran/vue-localization/issues"
+  },
+  "homepage": "https://github.com/valterlorran/vue-localization#readme"
+}
