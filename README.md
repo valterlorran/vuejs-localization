@@ -28,14 +28,20 @@ Vue.use(Lang);
 ```
 ## Lang file
 ```js
+//messages.js
 module.exports = {
   hello_world : 'Hellow World!'
 }
 ```
 
 ## Usage
+
+```js
+$lang.{file}.{key}
+```
+
 ```html
-<h1>{{$lang.hello_world}}</h1>
+<h1>{{$lang.messages.hello_world}}</h1>
 ```
 Results in:
 ```html
@@ -44,6 +50,6 @@ Results in:
 
 ## Change localization (reactive)
 ```js
-//inside veu instance
+//inside vue instance
 this.$lang.setLang('pt')
 ```
