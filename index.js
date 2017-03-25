@@ -64,7 +64,7 @@ Plugin.install = function(Vue, options){
 	var default_lang = o.default || 'en';
 
 	Object.defineProperty(Vue.prototype, '$lang', {
-		get () { return this.$root._lang }
+		get:function () { return this.$root._lang }
 	});
 
 	if(typeof o != 'object'){
@@ -73,7 +73,7 @@ Plugin.install = function(Vue, options){
 	}
 
 	Vue.mixin({
-	    beforeCreate () {
+	    beforeCreate:function() {
 	        Vue.util.defineReactive(this, '_lang',  new Lang({lang:default_lang}));
 	    }
 	});
