@@ -30,7 +30,7 @@ Vue.use(Lang);
 ```js
 //messages.js
 module.exports = {
-  hello_world : 'Hellow World!'
+  hello_world : 'Hello World!'
 }
 ```
 
